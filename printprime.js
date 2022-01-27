@@ -2,10 +2,19 @@ function print(){
 
     var x = document.getElementById("input_number").value;
     
+    
 
-    for(i=2; i<x; i++){
-        if (sosu(i)==true){
+    for(i=2; i<parseInt(x); i++){
+
+        if (sosu(i)==true)
+        {
             document.write(i);
+            
+        }
+
+        else{
+            
+            continue;
         }
         
 
@@ -24,4 +33,4 @@ function sosu(n){
     }
 
 
-}
+}}
